@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <>      
       {/* Header component for the navigation */}
       <Header />
       {/* Outlet to dynamically render child components based on the current route */}
