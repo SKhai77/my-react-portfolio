@@ -11,7 +11,6 @@ import "./index.css";
 
 // Import React components for the pages
 import App from "./App.jsx";
-import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
@@ -23,10 +22,6 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
-      {
-        index: true,
-        element: <Home />,
-      },
       {
         path: "about",
         element: <About />,
