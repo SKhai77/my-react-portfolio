@@ -7,10 +7,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 // Import Bootstrap and custom styles
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./index.css";
 
 // Import React components for the pages
-import App from "./App.jsx";
+import App from "./App";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
+      {
+        path: "/",
+        element: <About />,
+      },
       {
         path: "about",
         element: <About />,
@@ -44,10 +49,9 @@ const router = createBrowserRouter([
 
 // Render the RouterProvider component, wrapping the entire application in a router
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router}>
-    {/* Wrap the entire application in React StrictMode for additional development checks */}
-    <React.StrictMode>
+  <React.StrictMode>
+    <RouterProvider router={router}>
       <App />
-    </React.StrictMode>
-  </RouterProvider>
+    </RouterProvider>
+  </React.StrictMode>
 );
