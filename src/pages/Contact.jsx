@@ -70,8 +70,8 @@ function Contact() {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <h2>Contact Me</h2>
             <form onSubmit={handleSubmit}>
+              <h2>Contact Me</h2>
               <div className="mb-3">
                 <label htmlFor="name" className="form-label">
                   Name:
