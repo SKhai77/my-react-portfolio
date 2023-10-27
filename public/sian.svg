@@ -1,0 +1,12 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="svg_5_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#a5a530" ry="295.00001" rx="394.49999" id="svg_3" cy="300.99999" cx="400.50001" stroke-width="0" fill="#063e72"/>
+  <text filter="url(#svg_5_blur)" font-weight="bold" transform="matrix(10.6327 0 0 10.6327 -1738.87 -1553.83)" stroke="#a5a530" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="35" id="svg_5" y="183.78648" x="167.48453" stroke-width="0" fill="#ffffff">Sian</text>
+ </g>
+</svg>
