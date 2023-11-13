@@ -32,7 +32,7 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-        path: "portfolio/:id", // Dynamic route for portfolio with an ID parameter
+        path: "portfolio",
         element: <Portfolio />,
       },
       {
