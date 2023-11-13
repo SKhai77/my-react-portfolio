@@ -30,7 +30,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <p>&copy; 2023 | Sian - MERN Full Stack Portfolio</p>
+        <p>&copy; 2023 | Sian's - Full Stack Portfolio</p>
       </div>
     </footer>
   );
