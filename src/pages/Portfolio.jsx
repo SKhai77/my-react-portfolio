@@ -106,9 +106,9 @@ function Portfolio() {
 
   return (
     <section>
-      <h2>Portfolio</h2>
-      <div className="container-fluid text-center">
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+      <div className="container-fluid">
+        <h2>Portfolio</h2>
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-4">
           {projects.map((project, index) => (
             <div className="col" key={index}>
               <Project
