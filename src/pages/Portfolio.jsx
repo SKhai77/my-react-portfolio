@@ -105,6 +105,7 @@ function Portfolio() {
   ];
 
   return (
+    <main>
     <section>
       <div className="container-fluid">
         <h2>Portfolio</h2>
@@ -123,6 +124,7 @@ function Portfolio() {
         </div>
       </div>
     </section>
+    </main>
   );
 }
 
