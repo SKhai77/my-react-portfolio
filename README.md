@@ -1,12 +1,4 @@
-# Sian MERN Portfolio
-
-## Your Task
-
-Being a web developer means being part of a community. You’ll need a place not only to share your projects while you're applying for jobs or working as a freelancer but also to share your work with other developers and collaborate on projects.
-
-Your task is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies.
-
-You’ll deploy this application to Netlify. Follow the instructions in the Git Guide or consult the [Docs on Netlify](https://vitejs.dev/guide/static-deploy.html#netlify) to create a build that you can deploy.
+# Sian React Portfolio
 
 ## User Story
 
@@ -46,84 +38,86 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
-## Mock-Up
+## Table of Contents
 
-The following animation shows the web application's appearance and functionality:
+- [Description](#description)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+## Description
 
-## Getting Started
-
-You’ll use `vite` to build your portfolio, which will include the following:
-
-* A single `Header` component that appears on multiple pages
-
-* A single `Navigation` component within the header that will use `Link` components from `react-router-dom` to conditionally render the different sections of your portfolio
-
-* A single `Project` component that will be used multiple times in the Portfolio section
-
-* A single `Footer` component that appears on multiple pages
-
-**Note**: Because this application doesn’t include a back end or connect to an API, the contact form doesn't need to save this information right now. You'll add back-end functionality in the next few weeks. In the meantime, consider including your email address and phone number on the Contact page.
+Today's modern websites are driven by data and user demands. The ability to personalize user data is crucial in the current and future web development landscape. As user demands evolve, applications must adapt and become more performant. 
+Therefore, to keep up with the current demands, some existing fully function applications need to implement the technologies for it. In the same way, the goal of this project is to work on the starter code with a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end.
 
 
-### Projects
+## Technologies
 
-For each project that is featured in your portfolio, include the following:
+<!-- - Apollo/client/server -->
+- Express.js
+<!-- - GraphQL -->
+- Heroku
+- JavaScript
+<!-- - JSON Web Tokens -->
+<!-- - Mongoose ODM -->
+- Node.js
+<!-- - NoSQL/ MongoDB -->
+- React
 
-* An image of the deployed application (either a short animated GIF or screenshot)
+## Installation
 
-* The title of the project
+In order to be able to run the applicaton, you are required to do the following:
 
-* A link to the deployed application
+- Download the zip file/ clone the GitHub repo
+- Open the folder in VSCode
+- Click the "Toggle Panel" on the right-side or "Ctrl+J" to see the Terminal or Command Line Interface(CLI)
+- Install npm (Node Package Manager) inside the repo by typing the following code in the Command Line:
 
-* A link to the corresponding GitHub repository
+```
+    npm install               Press Enter
+```
 
-### Design
+## Usage
 
-As with the previous portfolio Challenge, remember that "good" design is subjective; however, your site should look polished. Here are a few guidelines on what that means:
+To use the application,
 
-* Use mobile-first design.
+- You need to do, "npm install" if you haven't done in the Installation section above.
+- Type the following commands in the Command Line to run and test the GraphQL `server-side` application:
 
-* Choose a color palette that distinguishes your site from the default Bootstrap theme and unstyled HTML sites. Refer to resources like [Coolors](https://coolors.co/) or another color scheme generator to help you create something that will stand out.
+```
+    npm start               Press Enter
+```
 
-* Ensure that the font size is large enough to read and that the colors don't cause eye strain.
+- Type the following commands in the Command Line to run both client side and server side. Then test the application from the frontend, `client-side`:
 
-* Consider using animations and React component libraries. Note that this will not affect your grade, but it might impact how potential employers gauge your knowledge.
+```
+    npm run develop               Press Enter
+```
 
-## Grading Requirements
+- Then, test all the functions and features.
 
-This Challenge is graded based on the following criteria:
+```md
+- Create an account
+- Login:
+  - Search books
+  - Save books
+  - View saved books
+  - Delete saved books
+```
 
-### Technical Acceptance Criteria: 40%
+- The application is deployed on Heroku. Visit the live website by [clicking here](https://sian-mern-portfolio.netlify.app/).
 
-* Satisfies all of the preceding acceptance criteria plus the following:
+## Screenshots
 
-  * Application must use React to render content.
+The following image shows the book search results with a "`Save this Book!`" button on each book:
 
-  * Application has a single `Header` component that appears on multiple pages, with a `Navigation` component within it that’s used to conditionally render About Me, Portfolio, Contact, and Resume sections.
+![Search Books Screenshot](./client/src/assets/screenshots/search-books.png)
 
-  * Application has a single `Project` component that’s used multiple times in the Portfolio section.
+The following image shows the "`Save this Book!`" button is clicked for saving books as the button is changed to `This book has already been saved!`:
 
-  * Application has a single `Footer` component that appears on multiple pages.
+![Save Books Screenshot](./client/src/assets/screenshots/save-books.png)
 
-  * Application must be deployed to Netlify.
+The following image shows the view of saved books under "`See Your Books`" menu:
 
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 15%
-
-* User experience is intuitive and easy to navigate.
-
-* User interface style is clean and polished.
-
-* Application uses a color scheme other than the default Bootstrap color palette.
-
+![View Saved Books Screenshot](./client/src/assets/screenshots/view-saved-books.png)
