@@ -1,10 +1,14 @@
 // Import project component
 import Project from "../components/Project";
-// Import Card and Button from react bootstrap
-import { Card, Button } from "react-bootstrap";
 
 function Portfolio() {
   const projects = [
+    {
+      title: "Roam Ready - Travler blog",
+      imageUrl: "./src/assets/images/roam-ready.png",
+      githubLink: "https://github.com/SKhai77/roam-ready",
+      deployedLink: "https://roam-ready-79c746e8ffc3.herokuapp.com/",
+    },
     {
       title: "Books Search Engine",
       imageUrl: "./src/assets/images/books-search-engine.png",
@@ -13,21 +17,14 @@ function Portfolio() {
         "https://skhai77-books-search-engine-20032e3d896f.herokuapp.com",
     },
     {
-      title: "Note Taker",
-      imageUrl: "./src/assets/images/note-taker-homepage.png",
+      title: "J.A.T.E - Text Editor",
+      imageUrl: "./src/assets/images/jate-text-editor.png",
       githubLink: "https://github.com/SKhai77/jate-text-editor",
       deployedLink:
         "https://skhai77-jate-text-editor-7aaafa1ed889.herokuapp.com",
     },
     {
-      title: "Social Versal",
-      imageUrl: "./src/assets/images/social-versal.png",
-      githubLink: "https://github.com/SKhai77/social-versal",
-      deployedLink:
-        "https://drive.google.com/file/d/1PVjxtVQOURVPO-SJqWwcUiLnlA28BCdc/view",
-    },
-    {
-      title: "Build Link",
+      title: "Build Link - Construction job board",
       imageUrl: "./src/assets/images/build-link.png",
       githubLink: "https://github.com/SKhai77/build-link",
       deployedLink: "https://build-link-10beabbadf73.herokuapp.com",
@@ -39,91 +36,33 @@ function Portfolio() {
       deployedLink: "https://sk77-mvctechblog-e599ac753156.herokuapp.com",
     },
     {
-      title: "Ecommerce Back-end",
-      imageUrl: "./src/assets/images/ecommerce-back-end.png",
-      githubLink: "https://github.com/SKhai77/ecommerce-back-end",
-      deployedLink:
-        "https://drive.google.com/file/d/1ZC9RToX-dUfTEyTq9dFKVJGEk1nl478u/view",
-    },
-    {
-      title: "Employee Tracker",
-      imageUrl: "./src/assets/images/employee-tracker.png",
-      githubLink: "https://github.com/SKhai77/employee-tracker",
-      deployedLink:
-        "https://drive.google.com/file/d/1ccQUpSUB7mIgQUvrM_7_txxJu9rIuw23/view",
-    },
-    {
-      title: "Pro Readme Generator",
-      imageUrl: "./src/assets/images/pro-readme-generator.png",
-      githubLink: "https://github.com/SKhai77/pro-readme-generator",
-      deployedLink:
-        "https://drive.google.com/file/d/1MHTbz1pqdGKrkB4UYTTfOhWUTo2Ho4ha/view",
-    },
-    {
-      title: "SVG Logo Maker",
-      imageUrl: "./src/assets/images/svg-logo-maker.png",
-      githubLink: "https://github.com/SKhai77/svg-logo-maker",
-      deployedLink:
-        "https://drive.google.com/file/d/1z6xt86CgY1ECtyz59uTez2jK5REXbXCx/view",
-    },
-    {
       title: "Work Day Scheduler",
       imageUrl: "./src/assets/images/work-day-scheduler.png",
       githubLink: "https://github.com/SKhai77/work-day-scheduler",
       deployedLink: "https://skhai77.github.io/work-day-scheduler",
     },
-    {
-      title: "Weather Dashboard",
-      imageUrl: "./src/assets/images/weather-dashboard.png",
-      githubLink: "https://github.com/SKhai77/weather-dashboard",
-      deployedLink: "https://skhai77.github.io/weather-dashboard",
-    },
-    {
-      title: "Code Quize",
-      imageUrl: "./src/assets/images/code-quiz-page.png",
-      githubLink: "https://github.com/SKhai77/js-code-quiz",
-      deployedLink: "https://skhai77.github.io/js-code-quiz",
-    },
-    {
-      title: "Password Generator",
-      imageUrl: "./src/assets/images/ps-generator.png",
-      githubLink: "https://github.com/SKhai77/js-password-generator",
-      deployedLink: "https://skhai77.github.io/js-password-generator",
-    },
-    {
-      title: "Responsive Portfolio",
-      imageUrl: "./src/assets/images/responsive-portfolio.png",
-      githubLink: "https://github.com/SKhai77/siankhai-portfolio-responsive",
-      deployedLink: "https://skhai77.github.io/siankhai-portfolio-responsive",
-    },
-    {
-      title: "Refactoring Horiseon Page",
-      imageUrl: "./src/assets/images/refactoring-page.png",
-      githubLink: "https://github.com/SKhai77/horiseon-code-refact",
-      deployedLink: "https://skhai77.github.io/horiseon-code-refact/index.html",
-    },
   ];
 
   return (
     <main>
-    <section>
-      <div className="container-fluid">
-        <h2>Portfolio</h2>
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-4">
-          {projects.map((project, index) => (
-            <div className="col" key={index}>
-              <Project
-                title={project.title}
-                description={project.description}
-                imageUrl={project.imageUrl}
-                githubLink={project.githubLink}
-                deployedLink={project.deployedLink}
-              />
-            </div>
-          ))}
+      <section>
+        <div className="container-fluid">
+          <h2>Portfolio</h2>
+          <div className="row mt-4">
+            {projects.map((project, index) => (
+              <div className="col-sm-6 col-md-4 col-lg-4 col-xxl-3" key={index}>
+                <Project
+                  title={project.title}
+                  description={project.description}
+                  imageUrl={project.imageUrl}
+                  githubLink={project.githubLink}
+                  deployedLink={project.deployedLink}
+                />
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </main>
   );
 }
