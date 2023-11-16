@@ -1,10 +1,12 @@
 function AboutMe() {
   return (
+
+    <main>
     <section>
       <div className="container-fluid">
-        <div className="row">
+        <h2>About me</h2>
+        <div className="row mt-4">
           <div className="col-md-12">
-            <h2>About me</h2>
             <img
               src="./src/assets/images/my-passport.png"
               alt="My passport size photo"
@@ -24,6 +26,7 @@ function AboutMe() {
         </div>
       </div>
     </section>
+    </main>
   );
 }
 
