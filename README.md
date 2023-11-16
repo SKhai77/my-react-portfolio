@@ -1,5 +1,7 @@
 # Sian React Portfolio
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a9ed6c62-64ee-4214-8dd4-2dec768c24e1/deploy-status)](https://app.netlify.com/sites/sian-mern-portfolio/deploy)
+
 ## User Story
 
 ```md
@@ -44,26 +46,24 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Screenshots](#screenshots)
+- [License](#license)
 
 ## Description
 
-Today's modern websites are driven by data and user demands. The ability to personalize user data is crucial in the current and future web development landscape. As user demands evolve, applications must adapt and become more performant. 
-Therefore, to keep up with the current demands, some existing fully function applications need to implement the technologies for it. In the same way, the goal of this project is to work on the starter code with a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end.
-
+Being a web developer means being part of a community. I need a place not only to share my projects while
+I am applying for jobs or working as a freelancer but also to share my work with other developers and collaborate on projects.
+I build this portfolio using my React skills, which will help set me apart from other developers whose portfolios don’t use the latest technologies.
 
 ## Technologies
 
-<!-- - Apollo/client/server -->
+- Bootstrap/CSS
 - Express.js
-<!-- - GraphQL -->
 - Heroku
 - JavaScript
-<!-- - JSON Web Tokens -->
-<!-- - Mongoose ODM -->
+- Netlify
 - Node.js
-<!-- - NoSQL/ MongoDB -->
 - React
+- Vite
 
 ## Installation
 
@@ -83,41 +83,15 @@ In order to be able to run the applicaton, you are required to do the following:
 To use the application,
 
 - You need to do, "npm install" if you haven't done in the Installation section above.
-- Type the following commands in the Command Line to run and test the GraphQL `server-side` application:
+- Type the following commands in the Command Line to run application on your computer:
 
 ```
     npm start               Press Enter
 ```
 
-- Type the following commands in the Command Line to run both client side and server side. Then test the application from the frontend, `client-side`:
+- The application is deployed on Netlify. Visit the live website by [clicking here](https://sian-mern-portfolio.netlify.app/).
 
-```
-    npm run develop               Press Enter
-```
+## License
 
-- Then, test all the functions and features.
-
-```md
-- Create an account
-- Login:
-  - Search books
-  - Save books
-  - View saved books
-  - Delete saved books
-```
-
-- The application is deployed on Heroku. Visit the live website by [clicking here](https://sian-mern-portfolio.netlify.app/).
-
-## Screenshots
-
-The following image shows the book search results with a "`Save this Book!`" button on each book:
-
-![Search Books Screenshot](./client/src/assets/screenshots/search-books.png)
-
-The following image shows the "`Save this Book!`" button is clicked for saving books as the button is changed to `This book has already been saved!`:
-
-![Save Books Screenshot](./client/src/assets/screenshots/save-books.png)
-
-The following image shows the view of saved books under "`See Your Books`" menu:
-
-![View Saved Books Screenshot](./client/src/assets/screenshots/view-saved-books.png)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+This project is under the MIT License. [Click here for more information](https://opensource.org/licenses/MIT).
