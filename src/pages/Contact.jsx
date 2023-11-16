@@ -66,81 +66,115 @@ function Contact() {
   };
 
   return (
-    <section>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6">
-            <form onSubmit={handleSubmit}>
-              <h2>Contact Me</h2>
-              <div className="mb-3">
-                <label htmlFor="name" className="form-label">
-                  Name:
-                </label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                />
-                {/* Validation message for name */}
-                {validationMessages.name && (
-                  <div className="alert alert-danger" role="alert">
-                    {validationMessages.name}
-                  </div>
-                )}
-              </div>
-              <div className="mb-3">
-                <label htmlFor="email" className="form-label">
-                  Email:
-                </label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                />
-                {/* Validation message for email */}
-                {validationMessages.email && (
-                  <div className="alert alert-danger" role="alert">
-                    {validationMessages.email}
-                  </div>
-                )}
-              </div>
-              <div className="mb-3">
-                <label htmlFor="message" className="form-label">
-                  Message:
-                </label>
-                <textarea
-                  className="form-control"
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  style={{ height: "200px" }}
-                  required
-                ></textarea>
-                {/* Validation message for message */}
-                {validationMessages.message && (
-                  <div className="alert alert-danger" role="alert">
-                    {validationMessages.message}
-                  </div>
-                )}
-              </div>
+    <main>
+      <section>
+        <div className="container-fluid">
+          <h2>Contact</h2>
+          <div className="row mt-4">
+            <div className="col-md-8 contact-info">
+              <h3>
+                You can directly reach out to me through the following
+                information:
+              </h3>
+              <p>
+                <a href="mailto:myemail@gmail.com" target="_blank">
+                  <i className="fa fa-envelope" style={{ padding: "5px" }}></i>
+                  Email: myemail@gmail.com
+                </a>
+              </p>
+              <p>
+                <a href="tel:+2145678900">
+                  <i className="fa-solid fa-phone" style={{ padding: "5px" }}></i>
+                  Phone: (214) 567-8900
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://www.google.com/maps?q=6425+Boaz+Lane+Dallas+TX+75205"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i
+                    className="fas fa-map-marker-alt"
+                    style={{ padding: "5px" }}
+                  ></i>
+                  SMU: 6425 Boaz Lane, Dallas, TX 75205
+                </a>
+              </p>
+            </div>
 
-              <button type="submit" className="btn btn-primary">
-                Submit
-              </button>
-            </form>
+            <div className="col-md-4">
+              <form onSubmit={handleSubmit}>
+                <div className="mb-3">
+                  <label htmlFor="name" className="form-label">
+                    Name:
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                  />
+                  {/* Validation message for name */}
+                  {validationMessages.name && (
+                    <div className="alert alert-danger" role="alert">
+                      {validationMessages.name}
+                    </div>
+                  )}
+                </div>
+                <div className="mb-3">
+                  <label htmlFor="email" className="form-label">
+                    Email:
+                  </label>
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                  />
+                  {/* Validation message for email */}
+                  {validationMessages.email && (
+                    <div className="alert alert-danger" role="alert">
+                      {validationMessages.email}
+                    </div>
+                  )}
+                </div>
+                <div className="mb-3">
+                  <label htmlFor="message" className="form-label">
+                    Message:
+                  </label>
+                  <textarea
+                    className="form-control"
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    style={{ height: "200px" }}
+                    required
+                  ></textarea>
+                  {/* Validation message for message */}
+                  {validationMessages.message && (
+                    <div className="alert alert-danger" role="alert">
+                      {validationMessages.message}
+                    </div>
+                  )}
+                </div>
+
+                <button type="submit" className="btn btn-primary">
+                  Submit
+                </button>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   );
 }
 
