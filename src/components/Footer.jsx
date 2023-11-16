@@ -5,7 +5,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 // Footer component
 const Footer = () => {
   return (
-    <footer className="w-100 mt-auto">
+    <footer className="mt-auto">
       <div className="container text-center">
         <div className="icons">
           {/* Links to external profiles */}
@@ -30,7 +30,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <p>&copy; 2023 | Sian's - Full Stack Portfolio</p>
+        <p>&copy; 2023 | Sian's - React Portfolio</p>
       </div>
     </footer>
   );
