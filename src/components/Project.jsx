@@ -34,7 +34,7 @@ const Project = ({
             width: "100%",
             height: "200px",
             objectFit: "fill",
-            border: isHovered ? "2px solid #917601" : "none",
+            border: isHovered ? "2px solid #917601" : "white",
             opacity: isHovered ? "0.1" : "1",
             transition: "opacity 0.3s ease",
           }}
@@ -64,12 +64,11 @@ const Project = ({
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
-                  color: "white",
                   fontSize: "1rem",
                   marginRight: "5px",
                   opacity: "1",
                   textDecoration: "none",
-                  color: isHovered ? "#917601" : "none",
+                  color: isHovered ? "#917601" : "white",
                 }}
               >
                 <FontAwesomeIcon icon={faGithub} /> Code
@@ -79,12 +78,11 @@ const Project = ({
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
-                  color: "white",
                   fontSize: "1rem",
                   marginLeft: "5px",
                   opacity: "1",
                   textDecoration: "none",
-                  color: isHovered ? "#917601" : "none",
+                  color: isHovered ? "#917601" : "white",
                 }}
               >
                 <i className="fa fa-external-link-square"></i> www
