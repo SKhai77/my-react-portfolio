@@ -1,33 +1,12 @@
-/* Main content style */
-#root {
-  display: flex;
-  flex-direction: column;
-  font-family: "open sans", sans-serif;
-  font-size: 1rem;
-  color: #ccc8c8;
-  margin: 0;
-  padding: 0;
-  background-color: #264461;
-  min-height: 100vh;
-}
-
-h1 {
-  font-family: "Aladin", sans-serif;
-  font-size: 1.6rem;
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-h2 {
-  font-family: "Aladin", sans-serif;
-  font-size: 1.4rem;
-  color: #fff;
-  letter-spacing: 1px;
-}
-
-h3 {
-  font-family: "Aladin", sans-serif;
-  font-size: 1.2rem;
-  color: #fff;
-  letter-spacing: 1px;
-}
+  /* Body content style */
+  #root {
+    display: flex;
+    flex-direction: column;
+    font-family: "open sans", sans-serif;
+    font-size: 1rem;
+    color: #ccc8c8;
+    margin: 0;
+    padding: 0;
+    background-color: #264461;
+    min-height: 100vh;
+  }
