@@ -1,26 +1,94 @@
 export default function Resume() {
   return (
-    <section>
-      <div className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <h2>Resume Page</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-              velit, lobortis ut magna varius, blandit rhoncus sem. Morbi
-              lacinia nisi ac dui fermentum, sed luctus urna tincidunt. Etiam ut
-              feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut
-              aliquet urna imperdiet ac. Sed nec nulla aliquam, bibendum odio
-              eget, vestibulum tortor. Cras rutrum ligula in tincidunt commodo.
-              Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-              elit. Donec blandit est sed risus feugiat porttitor. Vestibulum
-              molestie hendrerit massa non consequat. Vestibulum vitae lorem
-              tortor. In elementum ultricies tempus. Interdum et malesuada fames
-              ac ante ipsum primis in faucibus.
-            </p>
+    <main>
+      <section>
+        <div className="container-fluid">
+          <h2>Resume</h2>
+          <p className="text-center">
+            <a
+              href="./assets/resume/resume-sample.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fa fa-download" style={{ padding: "5px"}}></i> 
+              Download my Resume
+            </a>
+          </p>
+          <div className="row mt-4">
+            <div className="col-md-4">
+              <h3>Front-end Proficiencies</h3>
+              <ul className="list-group mb-3">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Responsive Design</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+              </ul>
+
+              <h3>Back-end Proficiencies</h3>
+              <ul className="list-group">
+                <li>APIs</li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>MySQL Sequelize</li>
+                <li>MongoDB, Mongoose</li>
+                <li>REST</li>
+                <li>GraphQL</li>
+              </ul>
+            </div>
+
+            <div className="col-md-4">
+              <h3>Front-end Proficiencies</h3>
+              <ul className="list-group mb-3">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Responsive Design</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+              </ul>
+
+              <h3>Back-end Proficiencies</h3>
+              <ul className="list-group">
+                <li>APIs</li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>MySQL Sequelize</li>
+                <li>MongoDB, Mongoose</li>
+                <li>REST</li>
+                <li>GraphQL</li>
+              </ul>
+            </div>
+
+            <div className="col-md-4">
+              <h3>Front-end Proficiencies</h3>
+              <ul className="list-group mb-3">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+                <li>Responsive Design</li>
+                <li>React</li>
+                <li>Bootstrap</li>
+              </ul>
+
+              <h3>Back-end Proficiencies</h3>
+              <ul className="list-group">
+                <li>APIs</li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>MySQL Sequelize</li>
+                <li>MongoDB, Mongoose</li>
+                <li>REST</li>
+                <li>GraphQL</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   );
 }
