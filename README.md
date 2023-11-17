@@ -1,6 +1,6 @@
 # Sian React Portfolio
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a9ed6c62-64ee-4214-8dd4-2dec768c24e1/deploy-status)](https://app.netlify.com/sites/sian-mern-portfolio/deploy)
+
 
 ## User Story
 
