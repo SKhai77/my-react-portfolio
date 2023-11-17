@@ -1,41 +1,57 @@
   /* Header style */
   header {
-    background-color: #5a5a57;
+    background-color: #dbbe17;
     padding: 1.2rem;
   }
 
   /* Navbar styles */
   .navbar-brand,
   .navbar-nav .nav-link {
-    color: #fff;
+    color: #1a2f57;
     font-family: "Aladin", sans-serif;
     font-size: 1.5rem;
     letter-spacing: 2px;
-    text-shadow: 5px 5px 10px #264461;
+    text-shadow: 5px 5px 10px #1a2f57;
   }
 
   .navbar-nav .nav-link:hover {
     font-size: 1.5rem;
     letter-spacing: 2px;
-    color: #917601;
-    text-shadow: 5px 5px 10px #264461;
+    color: #1a2f57;
+    text-shadow: 5px 5px 10px #1a2f57;
   }
 
   .navbar-brand {
     margin-left: 10px;
     letter-spacing: 7px;
     font-size: 1.6rem;
-    text-shadow: 5px 5px 10px #264461;
+    text-shadow: 5px 5px 10px #1a2f57;
   }
 
   .navbar-brand:hover {
     text-decoration: none;
-    color: #917601;
-    text-shadow: 5px 5px 10px #264461;
+    color: #fff;
+    text-shadow: 5px 5px 10px #1a2f57;
+  }
+
+  .navbar-logo {
+    box-shadow: 3px 7px 15px 7px #fff;
+    border-radius: 5px 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
   }
 
   .navbar {
-    background-color: #5a5a57 !important;
+    background-color: #dbbe17 !important;
+    border-radius: 10px;
+    border: 3px solid #1a2f57;
+  }
+
+  .navbar-toggler {
+    background-color: #1a2f57;
+    border: 3px solid #fff;
+    margin-top: 0rem;
+    margin-right: 0rem;
   }
 
   nav {
@@ -45,21 +61,27 @@
   /* Heading styles */
   h1 {
     font-family: "Aladin", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #fff;
     letter-spacing: 1px;
   }
 
   h2 {
     font-family: "Aladin", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #fff;
     letter-spacing: 1px;
   }
 
   h3 {
     font-family: "Aladin", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  h4 {
+    font-size: 1.2rem;
     color: #fff;
     letter-spacing: 1px;
   }
@@ -78,12 +100,22 @@
 
   a {
     text-decoration: none;
-    color: #ccc8c8;
+    color: #061e66 !important;
   }
 
   a:hover {
     text-decoration: underline;
-    color: #917601;
+    color: #fff !important;
+  }
+
+  p a {
+    text-decoration: none;
+    color: #fff !important;
+  }
+
+  p a:hover {
+    text-decoration: none;
+    color: #dbbe17 !important;
   }
 
   .list-group {
@@ -95,7 +127,7 @@
   main {
     text-align: left;
     padding: 2rem;
-    border-top: 15px solid #917601;
+    border-top: 15px solid #dbe7d7;
   }
 
   /* Contact style */
@@ -123,7 +155,7 @@
 
   .btn-primary {
     background-color: #ccc8c8;
-    color: #264461;
+    color: #1a2f57;
     padding: 0.5rem 0.8rem;
     border: none;
     cursor: pointer;
@@ -131,7 +163,7 @@
   }
 
   .btn-primary:hover {
-    background-color: #917601;
+    background-color: #dbbe17;
   }
 
   button:focus,
@@ -141,9 +173,9 @@
 
   /* Footer style */
   footer {
-    background-color: #264461;
+    background-color: #1a2f57;
     padding: 0.3rem;
-    border-top: 3px solid #5a5a57;
+    border-top: 3px solid #dbe7d7;
   }
 
   /* Icons style */
@@ -153,13 +185,13 @@
   }
 
   .icons a {
-    color: #fff;
+    color: #ccc8c8 !important;
     font-size: 24px;
     text-decoration: none;
   }
 
   .icons a:hover {
-    color: #917601;
+    color: #dbbe17 !important;
   }
 
   /* Styles for screens up to 768 pixels wide */
@@ -167,41 +199,42 @@
 
     /* Header style */
     header {
-      background-color: #5a5a57;
-      padding: 1.2rem;
+      background-color: #dbbe17;
+      padding: 0.7rem;
     }
 
-    /* Navbar style */
+    /* Navbar styles */
     .navbar-brand,
     .navbar-nav .nav-link {
-      color: #fff;
+      color: #1a2f57;
       font-family: "Aladin", sans-serif;
       font-size: 1.2rem;
       letter-spacing: 2px;
-      text-shadow: 5px 5px 10px #264461;
+      text-shadow: 5px 5px 10px #1a2f57;
     }
 
     .navbar-nav .nav-link:hover {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       letter-spacing: 2px;
-      color: #917601;
-      text-shadow: 5px 5px 10px #264461;
+      color: #fff;
+      text-shadow: 5px 5px 10px #1a2f57;
     }
 
     .navbar-brand {
+      margin-left: 10px;
       letter-spacing: 7px;
       font-size: 1.3rem;
-      text-shadow: 5px 5px 10px #264461;
-    }
-
-    .navbar-brand:hover {
-      text-decoration: none;
-      color: #917601;
-      text-shadow: 5px 5px 10px #264461;
+      text-shadow: 5px 5px 10px #1a2f57;
     }
 
     .navbar {
-      background-color: #5a5a57 !important;
+      background-color: #dbbe17 !important;
+      border-radius: 10px;
+      border: 3px solid #1a2f57;
+    }
+
+    nav {
+      margin-top: 0.3rem;
     }
 
     /* Header styles */
@@ -214,13 +247,19 @@
 
     h2 {
       font-family: "Aladin", sans-serif;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       color: #fff;
       letter-spacing: 1px;
     }
 
     h3 {
       font-family: "Aladin", sans-serif;
+      font-size: 1.1rem;
+      color: #fff;
+      letter-spacing: 1px;
+    }
+
+    h4 {
       font-size: 1.1rem;
       color: #fff;
       letter-spacing: 1px;
@@ -240,12 +279,22 @@
 
     a {
       text-decoration: none;
-      color: #ccc8c8;
+      color: #061e66 !important;
     }
 
     a:hover {
       text-decoration: underline;
-      color: #917601;
+      color: #fff !important;
+    }
+
+    p a {
+      text-decoration: none;
+      color: #fff !important;
+    }
+
+    p a:hover {
+      text-decoration: none;
+      color: #dbbe17 !important;
     }
 
     .list-group {
@@ -257,10 +306,10 @@
     main {
       text-align: left;
       padding: 2rem;
-      border-top: 15px solid #917601;
+      border-top: 15px solid #dbe7d7;
     }
 
-    /* Contact page style */
+    /* Contact style */
     .contact-info {
       margin-top: 1rem;
     }
@@ -285,7 +334,7 @@
 
     .btn-primary {
       background-color: #ccc8c8;
-      color: #264461;
+      color: #1a2f57;
       padding: 0.5rem 0.8rem;
       border: none;
       cursor: pointer;
@@ -293,7 +342,7 @@
     }
 
     .btn-primary:hover {
-      background-color: #917601;
+      background-color: #dbbe17;
     }
 
     button:focus,
@@ -303,10 +352,9 @@
 
     /* Footer style */
     footer {
-      background-color: #264461;
+      background-color: #1a2f57;
       padding: 0.3rem;
-      border-top: 3px solid #5a5a57;
-      overflow-x: hidden;
+      border-top: 3px solid #dbe7d7;
     }
 
     /* Icons style */
@@ -316,12 +364,12 @@
     }
 
     .icons a {
-      color: #fff;
+      color: #ccc8c8 !important;
       font-size: 24px;
       text-decoration: none;
     }
 
     .icons a:hover {
-      color: #917601;
+      color: #dbbe17 !important;
     }
   }
