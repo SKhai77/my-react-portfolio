@@ -46,7 +46,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
+- [Screenshots](#screenshots)
 
 ## Description
 
@@ -90,8 +90,6 @@ To use the application,
 ```
 
 - The application is deployed on Netlify. Visit the live website by [clicking here](https://sian-react-portfolio.netlify.app/).
-
-## Screeshots
 
 ## Screenshots
 
