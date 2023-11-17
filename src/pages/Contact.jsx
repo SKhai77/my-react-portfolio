@@ -22,7 +22,7 @@ function Contact() {
     // Clear validation message when user types
     setValidationMessages((prevMessages) => ({
       ...prevMessages,
-      [name]: "", // Clear the validation message for this field
+      [name]: "",
     }));
   };
 
@@ -47,7 +47,7 @@ function Contact() {
       return;
     }
 
-    // Add the logic here to handle form submission, and sending data to a server
+    // The logic here to handle form submission, and sending data to a server
 
     // log the form data to the console
     console.log("Form Data:", formData);
@@ -72,10 +72,10 @@ function Contact() {
           <h2>Contact</h2>
           <div className="row mt-4">
             <div className="col-md-8 contact-info">
-              <h3>
+              <h4>
                 You can directly reach out to me through the following
                 information:
-              </h3>
+              </h4>
               <p>
                 <a href="mailto:myemail@gmail.com" target="_blank">
                   <i className="fa fa-envelope" style={{ padding: "5px" }}></i>
@@ -84,7 +84,10 @@ function Contact() {
               </p>
               <p>
                 <a href="tel:+2145678900">
-                  <i className="fa-solid fa-phone" style={{ padding: "5px" }}></i>
+                  <i
+                    className="fa-solid fa-phone"
+                    style={{ padding: "5px" }}
+                  ></i>
                   Phone: (214) 567-8900
                 </a>
               </p>
