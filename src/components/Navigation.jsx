@@ -6,7 +6,7 @@ const Navigation = () => {
       <div className="container-fluid d-flex justify-content-between align-items-center">
         <div className="navbar-logo">
           <NavLink to="/" className="navbar-brand">
-            SIAN's PORTFOLIO
+            SIAN | PORTFOLIO
           </NavLink>
         </div>
         <div className="navbar-menu">
