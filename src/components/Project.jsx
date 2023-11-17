@@ -27,7 +27,7 @@ const Project = ({
         }}
       >
         <img
-          src={`.${imageUrl}`}
+          src={imageUrl}
           alt={title}
           className="img-fluid"
           style={{
@@ -51,7 +51,9 @@ const Project = ({
             }}
           >
             <h3>{title}</h3>
-            <p style={{ color: "#dbbe17", fontWeight: "bold" }}>{description}</p>
+            <p style={{ color: "#dbbe17", fontWeight: "bold" }}>
+              {description}
+            </p>
             <div
               style={{
                 display: "flex",
