@@ -91,7 +91,22 @@ To use the application,
 
 - The application is deployed on Netlify. Visit the live website by [clicking here](https://sian-react-portfolio.netlify.app/).
 
-## License
+## Screeshots
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-This project is under the MIT License. [Click here for more information](https://opensource.org/licenses/MIT).
+## Screenshots
+
+- Page "`About Me`":
+
+![Search Books Screenshot](./public/assets/screenshots/aboutme.jpeg)
+
+- Page "`Portfolio`":
+
+![Search Books Screenshot](./public/assets/screenshots/portfolio.jpeg)
+
+- Page "`Resume`":
+
+![Search Books Screenshot](./public/assets/screenshots/resume.jpeg)
+
+- Page "`Contact`":
+
+![Search Books Screenshot](./public/assets/screenshots/contact.jpeg)
