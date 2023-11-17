@@ -89,7 +89,7 @@ To use the application,
     npm start               Press Enter
 ```
 
-- The application is deployed on Netlify. Visit the live website by [clicking here](https://sian-mern-portfolio.netlify.app/).
+- The application is deployed on Netlify. Visit the live website by [clicking here](https://sian-react-portfolio.netlify.app/).
 
 ## License
 
