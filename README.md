@@ -95,16 +95,16 @@ To use the application,
 
 - Page "`About Me`":
 
-![Search Books Screenshot](./public/assets/screenshots/aboutme.jpeg)
+![About me page Screenshot](./public/assets/screenshots/aboutme.jpeg)
 
 - Page "`Portfolio`":
 
-![Search Books Screenshot](./public/assets/screenshots/portfolio.jpeg)
+![Portfolio Screenshot](./public/assets/screenshots/portfolio.jpeg)
 
 - Page "`Resume`":
 
-![Search Books Screenshot](./public/assets/screenshots/resume.jpeg)
+![Resume Screenshot](./public/assets/screenshots/resume.jpeg)
 
 - Page "`Contact`":
 
-![Search Books Screenshot](./public/assets/screenshots/contact.jpeg)
+![Contact Screenshot](./public/assets/screenshots/contact.jpeg)
