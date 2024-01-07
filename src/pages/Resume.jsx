@@ -2,7 +2,7 @@ export default function Resume() {
   return (
     <main>
       <section>
-        <div className="container-fluid">
+        <div className="container">
           <h2>Resume</h2>
           <p className="text-center">
             <a
@@ -11,7 +11,7 @@ export default function Resume() {
               rel="noopener noreferrer"
             >
               <i className="fa fa-download" style={{ padding: "5px"}}></i> 
-              Download my Resume
+              Download Full Resume
             </a>
           </p>
           <div className="row mt-4">
