@@ -1,69 +1,60 @@
-  /* Header style */
-  header {
-    background-color: #dbbe17;
-    padding: 1.2rem;
+  /* Navbar styles */
+  .navbar {
+    background-color: #dbbe17 !important;
   }
 
-  /* Navbar styles */
-  .navbar-brand,
-  .navbar-nav .nav-link {
-    color: #1a2f57;
-    font-family: "Aladin", sans-serif;
+  .navbar-nav {
     font-size: 1.5rem;
-    letter-spacing: 2px;
+    font-family: "Aladin", sans-serif;
+    color: #1a2f57;
     text-shadow: 5px 5px 10px #1a2f57;
   }
 
-  .navbar-nav .nav-link:hover {
+  .navbar-nav:hover {
     font-size: 1.5rem;
+    font-family: "Aladin", sans-serif;
     letter-spacing: 2px;
     color: #1a2f57;
     text-shadow: 5px 5px 10px #1a2f57;
   }
 
   .navbar-brand {
-    margin-left: 10px;
-    letter-spacing: 7px;
-    font-size: 1.6rem;
+    box-shadow: 1px 1px 3px 5px #fff;
+    border-radius: 5px 25px;
+    padding: 7px 7px 0px 10px;
     text-shadow: 5px 5px 10px #1a2f57;
+    font-family: "Aladin", sans-serif;
   }
 
   .navbar-brand:hover {
     text-decoration: none;
     color: #fff;
     text-shadow: 5px 5px 10px #1a2f57;
-  }
-
-  .navbar-logo {
-    box-shadow: 3px 7px 15px 7px #fff;
-    border-radius: 5px 30px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-  }
-
-  .navbar {
-    background-color: #dbbe17 !important;
-    border-radius: 10px;
-    border: 3px solid #1a2f57;
+    font-family: "Aladin", sans-serif;
   }
 
   .navbar-toggler {
-    background-color: #1a2f57;
     border: 3px solid #fff;
     margin-top: 0rem;
     margin-right: 0rem;
   }
 
-  nav {
-    margin-top: 1rem;
+  .navbar-nav a {
+    border-bottom: 3px solid;
+    text-decoration: none;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+
+  .nav-link.active {
+    color: #fff !important;
   }
 
   /* Heading styles */
   h1 {
     font-family: "Aladin", sans-serif;
     font-size: 1.6rem;
-    color: #fff;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
   }
 
   h2 {
@@ -71,6 +62,7 @@
     font-size: 1.5rem;
     color: #fff;
     letter-spacing: 1px;
+    text-align: center;
   }
 
   h3 {
@@ -98,13 +90,13 @@
     margin: 0 20px;
   }
 
+  /*  Link Styles */
   a {
     text-decoration: none;
     color: #061e66 !important;
   }
 
   a:hover {
-    text-decoration: underline;
     color: #fff !important;
   }
 
@@ -133,11 +125,6 @@
   /* Contact style */
   .contact-info {
     margin-top: 14rem;
-  }
-
-  form {
-    width: 100%;
-    margin: 0 auto;
   }
 
   label {
@@ -192,184 +179,4 @@
 
   .icons a:hover {
     color: #dbbe17 !important;
-  }
-
-  /* Styles for screens up to 768 pixels wide */
-  @media screen and (max-width: 768px) {
-
-    /* Header style */
-    header {
-      background-color: #dbbe17;
-      padding: 0.7rem;
-    }
-
-    /* Navbar styles */
-    .navbar-brand,
-    .navbar-nav .nav-link {
-      color: #1a2f57;
-      font-family: "Aladin", sans-serif;
-      font-size: 1.2rem;
-      letter-spacing: 2px;
-      text-shadow: 5px 5px 10px #1a2f57;
-    }
-
-    .navbar-nav .nav-link:hover {
-      font-size: 1.2rem;
-      letter-spacing: 2px;
-      color: #fff;
-      text-shadow: 5px 5px 10px #1a2f57;
-    }
-
-    .navbar-brand {
-      margin-left: 10px;
-      letter-spacing: 7px;
-      font-size: 1.3rem;
-      text-shadow: 5px 5px 10px #1a2f57;
-    }
-
-    .navbar {
-      background-color: #dbbe17 !important;
-      border-radius: 10px;
-      border: 3px solid #1a2f57;
-    }
-
-    nav {
-      margin-top: 0.3rem;
-    }
-
-    /* Header styles */
-    h1 {
-      font-family: "Aladin", sans-serif;
-      font-size: 1.3rem;
-      color: #fff;
-      letter-spacing: 1px;
-    }
-
-    h2 {
-      font-family: "Aladin", sans-serif;
-      font-size: 1.2rem;
-      color: #fff;
-      letter-spacing: 1px;
-    }
-
-    h3 {
-      font-family: "Aladin", sans-serif;
-      font-size: 1.1rem;
-      color: #fff;
-      letter-spacing: 1px;
-    }
-
-    h4 {
-      font-size: 1.1rem;
-      color: #fff;
-      letter-spacing: 1px;
-    }
-
-    /* Unordered List Styles */
-    ul {
-      padding: 0;
-      list-style: none;
-      display: flex;
-      justify-content: center;
-    }
-
-    li {
-      margin: 0 20px;
-    }
-
-    a {
-      text-decoration: none;
-      color: #061e66 !important;
-    }
-
-    a:hover {
-      text-decoration: underline;
-      color: #fff !important;
-    }
-
-    p a {
-      text-decoration: none;
-      color: #fff !important;
-    }
-
-    p a:hover {
-      text-decoration: none;
-      color: #dbbe17 !important;
-    }
-
-    .list-group {
-      list-style-type: circle;
-      margin-left: 1rem;
-    }
-
-    /* Main style */
-    main {
-      text-align: left;
-      padding: 2rem;
-      border-top: 15px solid #dbe7d7;
-    }
-
-    /* Contact style */
-    .contact-info {
-      margin-top: 1rem;
-    }
-
-    form {
-      width: 100%;
-      margin: 0 auto;
-    }
-
-    label {
-      display: block;
-      margin-bottom: 0.5rem;
-      color: #ccc8c8;
-    }
-
-    input,
-    textarea {
-      width: 100%;
-      padding: 0.5rem;
-      margin-bottom: 1rem;
-    }
-
-    .btn-primary {
-      background-color: #ccc8c8;
-      color: #1a2f57;
-      padding: 0.5rem 0.8rem;
-      border: none;
-      cursor: pointer;
-      font-weight: bold;
-    }
-
-    .btn-primary:hover {
-      background-color: #dbbe17;
-    }
-
-    button:focus,
-    button:focus-visible {
-      outline: 4px auto -webkit-focus-ring-color;
-    }
-
-    /* Footer style */
-    footer {
-      background-color: #1a2f57;
-      padding: 0.3rem;
-      border-top: 3px solid #dbe7d7;
-    }
-
-    /* Icons style */
-    .icons {
-      display: flex;
-      justify-content: space-around;
-    }
-
-    .icons a {
-      color: #ccc8c8 !important;
-      font-size: 24px;
-      text-decoration: none;
-    }
-
-    .icons a:hover {
-      color: #dbbe17 !important;
-    }
   }
