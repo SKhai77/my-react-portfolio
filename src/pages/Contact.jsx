@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -15,11 +16,11 @@ function Contact() {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
+    setFormData((prevFormData) => ({
+      ...prevFormData,
       [name]: value,
-    });
-    // Clear validation message when user types
+    }));
+    // Clear validation message when the user types
     setValidationMessages((prevMessages) => ({
       ...prevMessages,
       [name]: "",
@@ -28,6 +29,33 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // EmailJS Service ID, Template ID, and Public Key
+    const emailServiceId = "service_q4u27jk";     
+    const emailTemplateId = "template_cccqrmi"; 
+    const emailPublicKey = "KYasPB8sYpAxIx1lL"; 
+    
+    // Create a new object that contains dynamic template params
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      to_name: "My Portfolio",
+      message: formData.message,
+    };
+
+    // Send email using EmailJS
+    emailjs
+      .send(emailServiceId, emailTemplateId, templateParams, emailPublicKey)
+      .then(
+        (response) => {
+          console.log("Email sent successfully!", response);
+          alert("Your message has been sent successfully!");
+          setFormData({ name: "", email: "", message: "" });
+        },
+        (error) => {
+          console.error("Error sending email:", error);
+        }
+      );
 
     // Validate form fields
     const newValidationMessages = {};
@@ -46,67 +74,15 @@ function Contact() {
       setValidationMessages(newValidationMessages);
       return;
     }
-
-    // The logic here to handle form submission, and sending data to a server
-
-    // log the form data to the console
-    console.log("Form Data:", formData);
-
-    // Reset form fields and validation messages
-    setFormData({
-      name: "",
-      email: "",
-      message: "",
-    });
-    setValidationMessages({
-      name: "",
-      email: "",
-      message: "",
-    });
   };
 
   return (
     <main>
       <section>
-        <div className="container-fluid">
+        <div className="container ">
           <h2>Contact</h2>
-          <div className="row mt-4">
-            <div className="col-md-8 contact-info">
-              <h4>
-                You can directly reach out to me through the following
-                information:
-              </h4>
-              <p>
-                <a href="mailto:myemail@gmail.com" target="_blank">
-                  <i className="fa fa-envelope" style={{ padding: "5px" }}></i>
-                  Email: myemail@gmail.com
-                </a>
-              </p>
-              <p>
-                <a href="tel:+2145678900">
-                  <i
-                    className="fa-solid fa-phone"
-                    style={{ padding: "5px" }}
-                  ></i>
-                  Phone: (214) 567-8900
-                </a>
-              </p>
-              <p>
-                <a
-                  href="https://www.google.com/maps?q=6425+Boaz+Lane+Dallas+TX+75205"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i
-                    className="fas fa-map-marker-alt"
-                    style={{ padding: "5px" }}
-                  ></i>
-                  SMU: 6425 Boaz Lane, Dallas, TX 75205
-                </a>
-              </p>
-            </div>
-
-            <div className="col-md-4">
+          <div class="row justify-content-center">
+            <div className="col-md-6">
               <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                   <label htmlFor="name" className="form-label">
