@@ -19,7 +19,7 @@ function Navigation() {
               as={NavLink}
               to="/about"
               className="ms-md-lg-auto"
-              activeClassName="active"
+              activeclassname="active"
               style={{
                 letterSpacing: "3px",
                 marginRight: "20px",
@@ -31,7 +31,7 @@ function Navigation() {
             <Nav.Link
               as={NavLink}
               to="/portfolio"
-              activeClassName="active"
+              activeclassname="active"
               style={{
                 letterSpacing: "3px",
                 marginRight: "20px",
@@ -43,7 +43,7 @@ function Navigation() {
             <Nav.Link
               as={NavLink}
               to="/resume"
-              activeClassName="active"
+              activeclassname="active"
               style={{
                 letterSpacing: "3px",
                 marginRight: "20px",
@@ -55,7 +55,7 @@ function Navigation() {
             <Nav.Link
               as={NavLink}
               to="/contact"
-              activeClassName="active"
+              activeclassname="active"
               style={{ letterSpacing: "3px", marginRight: "20px", marginBottom: "0px" }}
             >
               Contact

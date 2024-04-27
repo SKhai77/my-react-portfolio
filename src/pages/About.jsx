@@ -17,8 +17,9 @@ function AboutMe() {
               <p>
                 Hello, my name is Sian Khai. I have been passionate about web
                 development since 2006, and I learned some basic web design when
-                I was in India. I also took a multimedia developer course at Richland Community College in Dallas. 
-                Unfortunately, I wasn't able to continue in the field due to my situation.
+                I was in India. I also took a multimedia developer course at
+                Richland Community College in Dallas. Unfortunately, I wasn't
+                able to continue in the field due to my situation.
               </p>
               <p>
                 I have been working as a ride-share driver since May of 2022.

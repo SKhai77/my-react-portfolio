@@ -36,5 +36,5 @@ const Footer = () => {
   );
 };
 
-// Export Footer coponent
+// Export Footer component
 export default Footer;
