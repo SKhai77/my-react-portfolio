@@ -9,7 +9,7 @@ function Resume() {
         <Container>
           <div className="resume">
             <h2>Resume</h2>
-            <p className="text-center">
+            <p>
               <a
                 href="./assets/resume/resume-sample.pdf"
                 target="_blank"
@@ -24,7 +24,7 @@ function Resume() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i class="fa-solid fa-link" style={{ padding: "5px" }}></i>
+                <i className="fa-solid fa-link" style={{ padding: "5px" }}></i>
                 Certificate
               </a>
             </p>
