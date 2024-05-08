@@ -1,19 +1,43 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
 import "./App.css";
 
 function App() {
   return (
-    <>      
+    <div className="App">
       {/* Header component for the navigation */}
       <Header />
-      {/* Outlet to dynamically render child components based on the current route */}
-      <Outlet />
-      {/* Footer coponent */}
+      {/* Main content */}
+      <main>
+        {/* About section */}
+        <section id="about" className="section">
+          <About />
+        </section>
+
+        {/* Portfolio section */}
+        <section id="portfolio" className="section">
+          <Portfolio />
+        </section>
+
+        {/* Resume section */}
+        <section id="resume" className="section">
+          <Resume />
+        </section>
+
+        {/* Contact section */}
+        <section id="contact" className="section">
+          <Contact />
+        </section>
+      </main>
+
+      {/* Footer component */}
       <Footer />
-    </>
+    </div>
   );
 }
 
