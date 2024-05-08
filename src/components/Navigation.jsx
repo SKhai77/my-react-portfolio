@@ -1,4 +1,5 @@
-import { NavLink, Link } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -16,47 +17,47 @@ function Navigation() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto px-4 py-2">
             <Nav.Link
-              as={NavLink}
-              to="/about"
+              href="#about"
               className="ms-md-lg-auto"
               activeclassname="active"
               style={{
                 letterSpacing: "3px",
                 marginRight: "20px",
-                marginBottom: "0px"
+                marginBottom: "0px",
               }}
             >
               About
             </Nav.Link>
             <Nav.Link
-              as={NavLink}
-              to="/portfolio"
+              href="#portfolio"
               activeclassname="active"
               style={{
                 letterSpacing: "3px",
                 marginRight: "20px",
-                marginBottom: "0px"
+                marginBottom: "0px",
               }}
             >
               Portfolio
             </Nav.Link>
             <Nav.Link
-              as={NavLink}
-              to="/resume"
+              href="#resume"
               activeclassname="active"
               style={{
                 letterSpacing: "3px",
                 marginRight: "20px",
-                marginBottom: "0px"
+                marginBottom: "0px",
               }}
             >
               Resume
             </Nav.Link>
             <Nav.Link
-              as={NavLink}
-              to="/contact"
+              href="#contact"
               activeclassname="active"
-              style={{ letterSpacing: "3px", marginRight: "20px", marginBottom: "0px" }}
+              style={{
+                letterSpacing: "3px",
+                marginRight: "20px",
+                marginBottom: "0px",
+              }}
             >
               Contact
             </Nav.Link>
