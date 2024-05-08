@@ -12,10 +12,6 @@ import "./index.css";
 
 // Import React components for the pages
 import App from "./App";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Resume from "./pages/Resume";
-import Contact from "./pages/Contact";
 
 // Define the accessible routes and components associated with each URL
 const router = createBrowserRouter([
@@ -25,23 +21,23 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <About />,
+        element: <App />,
       },
       {
-        path: "about",
-        element: <About />,
+        path: "/about",
+        element: <App />,
       },
       {
-        path: "portfolio",
-        element: <Portfolio />,
+        path: "/portfolio",
+        element: <App />,
       },
       {
-        path: "resume",
-        element: <Resume />,
+        path: "/resume",
+        element: <App />,
       },
       {
-        path: "contact",
-        element: <Contact />,
+        path: "/contact",
+        element: <App />,
       },
     ],
   },
