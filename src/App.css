@@ -1,21 +1,11 @@
+  /* Header Style */
+  header {
+    border-bottom: 15px solid #fff;
+  }
+
   /* Navbar styles */
   .navbar {
     background-color: #dbbe17 !important;
-  }
-
-  .navbar-nav {
-    font-size: 1.5rem;
-    font-family: "Aladin", sans-serif;
-    color: #1a2f57;
-    text-shadow: 5px 5px 10px #1a2f57;
-  }
-
-  .navbar-nav:hover {
-    font-size: 1.5rem;
-    font-family: "Aladin", sans-serif;
-    letter-spacing: 2px;
-    color: #1a2f57;
-    text-shadow: 5px 5px 10px #1a2f57;
   }
 
   .navbar-brand {
@@ -23,14 +13,27 @@
     border-radius: 5px 25px;
     padding: 7px 7px 0px 10px;
     text-shadow: 5px 5px 10px #1a2f57;
-    font-family: "Aladin", sans-serif;
   }
 
   .navbar-brand:hover {
     text-decoration: none;
     color: #fff;
     text-shadow: 5px 5px 10px #1a2f57;
+  }
+
+  .navbar-nav {
+    font-size: 1.125rem;
     font-family: "Aladin", sans-serif;
+    color: #1a2f57;
+    text-shadow: 5px 5px 10px #1a2f57;
+  }
+
+  .navbar-nav:hover {
+    font-size: 1.125rem;
+    font-family: "Aladin", sans-serif;
+    letter-spacing: 2px;
+    color: #1a2f57;
+    text-shadow: 5px 5px 10px #1a2f57;
   }
 
   .navbar-toggler {
@@ -53,8 +56,9 @@
   /* Heading styles */
   h1 {
     font-family: "Aladin", sans-serif;
-    font-size: 1.6rem;
-    letter-spacing: 3px;
+    font-size: 1.7rem;    
+    letter-spacing: 1px;
+    text-align: center;
   }
 
   h2 {
@@ -110,18 +114,18 @@
     color: #dbbe17 !important;
   }
 
-  .list-group {
-    list-style-type: none;
-    margin-left: 1rem;
+  /* Section style */
+  .section {
+    padding: 40px 0;
+    border-bottom: 1px solid #fff;
   }
 
-  /* Main style */
-  main {
-    text-align: left;
-    padding: 2rem;
-    border-top: 15px solid #dbe7d7;
+  /* Section style to remove the bottom border */
+  .section:last-child {
+    border-bottom: none;
   }
 
+  /* Resume style  */
   .resume {
     text-align: center;
   }
@@ -183,4 +187,22 @@
 
   .icons a:hover {
     color: #dbbe17 !important;
+  }
+
+  /* Small screens */
+  @media (max-width: 480px) {
+
+    h1 {
+      font-size: 1.4rem;
+     
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      
+    }
+
+    h3 {
+      font-size: 1rem;
+    }
   }
