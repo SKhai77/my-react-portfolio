@@ -81,7 +81,7 @@ function Contact() {
       <section>
         <div className="container ">
           <h2>Contact</h2>
-          <div class="row justify-content-center">
+          <div className="row justify-content-center">
             <div className="col-md-6">
               <form onSubmit={handleSubmit}>
                 <div className="mb-3">
