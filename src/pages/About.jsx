@@ -15,11 +15,12 @@ function AboutMe() {
                 />
               </div>
               <p>
-                Hello, my name is Sian Khai. I have been passionate about web
-                development since 2006, and I learned some basic web design when
-                I was in India. I also took a multimedia developer course at
-                Richland Community College in Dallas. Unfortunately, I wasn't
-                able to continue in the field due to my situation.
+                Hello, my name is Sian Khai. I have been passionate about
+                Information Technology and web development since 2006. I learned
+                some basic web design when I was in India. I also took a
+                multimedia developer course at Richland Community College in
+                Dallas. However, I wasn't able to continue in the field due to
+                my situation at that time.
               </p>
               <p>
                 I have been working as a ride-share driver since May of 2022.
@@ -30,9 +31,11 @@ function AboutMe() {
               <p>
                 I have completed the Full Stack Web Development Boot Camp at SMU
                 and graduated as of November of 2023. I have been able to create
-                many projects from the Boot Camp using various coding languages,
-                mainly MERN stack. My goal is to acquire a stable career in this
-                field of work.
+                projects from the Boot Camp using MERN stack technologies. My
+                goal is to become a successful developer, leveraging my skills
+                to innovate and develop new technologies that solve real-world
+                problems and contribute to the advancement of the tech
+                community.
               </p>
             </div>
           </div>
