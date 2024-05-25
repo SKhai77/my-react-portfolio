@@ -22,14 +22,14 @@
   }
 
   .navbar-nav {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     font-family: "Aladin", sans-serif;
     color: #1a2f57;
     text-shadow: 5px 5px 10px #1a2f57;
   }
 
   .navbar-nav:hover {
-    font-size: 1.125rem;
+    font-size: 1.2rem;
     font-family: "Aladin", sans-serif;
     letter-spacing: 2px;
     color: #1a2f57;
