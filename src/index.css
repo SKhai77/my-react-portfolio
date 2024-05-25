@@ -1,7 +1,5 @@
   /* Body content style */
-  html,
-  body,
-  #root {
+  body {
     display: flex;
     flex-direction: column;
     font-family: "open sans", sans-serif;
