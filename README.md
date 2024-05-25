@@ -67,7 +67,7 @@ I build this portfolio using my React skills, which will help set me apart from 
 
 ## Installation
 
-In order to be able to run the applicaton, you are required to do the following:
+In order to be able to run the application, you are required to do the following:
 
 - Download the zip file/ clone the GitHub repo
 - Open the folder in VSCode
