@@ -21,7 +21,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/sian-khai-8a1a60296/"
+                href="https://www.linkedin.com/in/sian-l-khai/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -30,7 +30,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <p>&copy; 2024 | Sian's - React Portfolio</p>
+        <p>&copy; 2024 | Designed and Developed by Sian Khai.</p>
       </div>
     </footer>
   );
