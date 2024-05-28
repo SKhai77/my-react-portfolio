@@ -11,7 +11,7 @@ function Resume() {
             <h2>Resume</h2>
             <p>
               <a
-                href="./assets/resume/resume-sample.pdf"
+                href="./assets/resume/Sian_Full_Stack_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
