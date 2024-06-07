@@ -95,4 +95,4 @@ To use the application,
 
 - Full Page with all "`Sections`":
 
-![Full Page Screenshot](./public/assets/screenshots/full-page-screenshot.png)
+![Full Page Screenshot](public\assets\full-page-screenshot.png)
