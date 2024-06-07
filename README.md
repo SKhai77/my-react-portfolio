@@ -93,18 +93,6 @@ To use the application,
 
 ## Screenshots
 
-- Page "`About Me`":
+- Full Page with all "`Sections`":
 
-![About me page Screenshot](./public/assets/screenshots/aboutme.jpeg)
-
-- Page "`Portfolio`":
-
-![Portfolio Screenshot](./public/assets/screenshots/portfolio.jpeg)
-
-- Page "`Resume`":
-
-![Resume Screenshot](./public/assets/screenshots/resume.jpeg)
-
-- Page "`Contact`":
-
-![Contact Screenshot](./public/assets/screenshots/contact.jpeg)
+![Full Page Screenshot](./public/assets/screenshots/full-page-screenshot.png)
