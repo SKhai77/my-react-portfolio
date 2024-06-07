@@ -3,15 +3,15 @@ function AboutMe() {
     <main>
       <section>
         <div className="container">
-          <h2>About me</h2>
-          <div className="row mt-4">
+          <h2>About Me</h2>
+          <div className="row">
             <div className="col-md-12">
               <div className="d-flex justify-content-center align-items-center">
                 <img
-                  src="./assets/images/my-passport.png"
+                  src="./assets/images/sian-photo.png"
                   alt="My passport size photo"
                   className="img-fluid rounded-circle pt-3 pb-3"
-                  style={{ maxWidth: "150px", maxHeight: "150px" }}
+                  style={{ maxWidth: "200px", maxHeight: "200px" }}
                 />
               </div>
               <p>
