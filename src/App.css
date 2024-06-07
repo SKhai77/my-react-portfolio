@@ -9,7 +9,7 @@
   }
 
   .navbar-brand {
-    box-shadow: 1px 1px 3px 5px #fff;
+    box-shadow: 1px 3px 1px 1px #fff;
     border-radius: 5px 25px;
     padding: 7px 7px 0px 10px;
     text-shadow: 5px 5px 10px #1a2f57;
@@ -64,7 +64,7 @@
   h2 {
     font-family: "Aladin", sans-serif;
     font-size: 1.5rem;
-    color: #fff;
+    color: #ffffffe7;
     letter-spacing: 1px;
     text-align: center;
   }
@@ -72,13 +72,13 @@
   h3 {
     font-family: "Aladin", sans-serif;
     font-size: 1.3rem;
-    color: #fff;
+    color: #ffffffe7;
     letter-spacing: 1px;
   }
 
   h4 {
     font-size: 1.2rem;
-    color: #fff;
+    color: #ffffffe7;
     letter-spacing: 1px;
   }
 
@@ -138,7 +138,7 @@
   label {
     display: block;
     margin-bottom: 0.5rem;
-    color: #ccc8c8;
+    color: #ffffffde;
   }
 
   input,
@@ -149,7 +149,7 @@
   }
 
   .btn-primary {
-    background-color: #ccc8c8;
+    background-color: #ffffffde;
     color: #1a2f57;
     padding: 0.5rem 0.8rem;
     border: none;
@@ -170,7 +170,7 @@
   footer {
     background-color: #1a2f57;
     padding: 0.3rem;
-    border-top: 3px solid #dbe7d7;
+    border-top: 3px solid #ffffffde;
   }
 
   /* Icons style */
@@ -180,7 +180,7 @@
   }
 
   .icons a {
-    color: #ccc8c8 !important;
+    color: #ffffffde!important;
     font-size: 24px;
     text-decoration: none;
   }
