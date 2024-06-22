@@ -10,34 +10,36 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./index.css";
 
-// Import React components for the pages
+// Import the main App component
 import App from "./App";
+
+// Import individual page components
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
 
 // Define the accessible routes and components associated with each URL
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/", // Root path
     element: <App />,
     children: [
       {
-        path: "/",
-        element: <App />,
+        path: "about", // URL path for About section
+        element: <About />,
       },
       {
-        path: "/about",
-        element: <App />,
+        path: "portfolio", // URL path for Portfolio section
+        element: <Portfolio />,
       },
       {
-        path: "/portfolio",
-        element: <App />,
+        path: "resume", // URL path for Resume section
+        element: <Resume />,
       },
       {
-        path: "/resume",
-        element: <App />,
-      },
-      {
-        path: "/contact",
-        element: <App />,
+        path: "contact", // URL path for Contact section
+        element: <Contact />,
       },
     ],
   },
@@ -46,8 +48,7 @@ const router = createBrowserRouter([
 // Render the RouterProvider component, wrapping the entire application in a router
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router}>
-      <App />
-    </RouterProvider>
+    {/* RouterProvider wraps the app to enable routing */}
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
