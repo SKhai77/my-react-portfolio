@@ -41,26 +41,26 @@ function Resume() {
               <Col>
                 <h3 className="mt-3">Front-end Proficiencies</h3>
                 <ul className="list-group">
+                  <li>Responsive Design</li>
+                  <li>JavaScript</li>
+                  <li>Bootstrap</li>
+                  <li>jQuery</li>
+                  <li>React</li>
                   <li>HTML</li>
                   <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>jQuery</li>
-                  <li>Responsive Design</li>
-                  <li>React</li>
-                  <li>Bootstrap</li>
                 </ul>
               </Col>
 
               <Col>
                 <h3 className="mt-3">Back-end Proficiencies</h3>
                 <ul className="list-group">
+                  <li>MongoDB, Mongoose</li>
+                  <li>MySQL Sequelize</li>
+                  <li>GraphQL</li>
+                  <li>Express</li>
                   <li>APIs</li>
                   <li>Node</li>
-                  <li>Express</li>
-                  <li>MySQL Sequelize</li>
-                  <li>MongoDB, Mongoose</li>
                   <li>REST</li>
-                  <li>GraphQL</li>
                 </ul>
               </Col>
 
@@ -68,10 +68,12 @@ function Resume() {
                 <h3 className="mt-3">AI Applications and Prompt Engineering</h3>
                 <ul className="list-group">
                   <li>Artificial Intelligence</li>
-                  <i>Prompt Engineering</i>
+                  <li>Prompt Engineering</li>
                   <li>OpenAI API</li>
                   <li>LangChain</li>
                   <li>ChatGPT</li>
+                  <li>LLMs</li>
+                  <li>NLP</li>
                 </ul>
               </Col>
             </Row>
