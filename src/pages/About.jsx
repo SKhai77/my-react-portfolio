@@ -8,7 +8,7 @@ function AboutMe() {
             <div className="col-md-12">
               <div className="d-flex justify-content-center align-items-center">
                 <img
-                  src="./assets/images/sian-photo.png"
+                  src="./assets/images/sian-photo.jpg"
                   alt="My passport size photo"
                   className="img-fluid rounded-circle pt-3 pb-3"
                   style={{ maxWidth: "200px", maxHeight: "200px" }}
@@ -30,7 +30,7 @@ function AboutMe() {
                 I have completed the Full Stack Web Development Boot Camp at SMU
                 and graduated as of November of 2023. I have been able to create
                 projects from the Boot Camp using MERN stack technologies.
-                Recently, I have also acquired an AI Application and Prompt Engineering
+                Recently, I have also acquired an AI Applications and Prompt Engineering
                 certificate. My projects include an AI JavaScript Coding
                 Assistant and a Multi-Language Translator, both of which have
                 helped me refine my skills in AI integration and practical
