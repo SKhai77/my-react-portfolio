@@ -15,28 +15,31 @@ function AboutMe() {
                 />
               </div>
               <p>
-                Hello, my name is Sian Khai. I have been passionate about
-                Information Technology and web development since 2006. I learned
-                some basic web design when I was in India. I also took a
-                multimedia developer course at Richland Community College in
-                Dallas. However, I wasn't able to continue in the field due to
-                my situation at that time.
+                Hello, welcome to my portfolio! My name is Sian Khai, and I am a
+                Full Stack Web Developer with a passion for creating dynamic and
+                responsive applications. My work spans various projects, from
+                building travel blogs to developing AI-powered tools.
               </p>
               <p>
-                I have been working as a ride-share driver since May of 2022.
-                Before that, I worked for a non-profit organization for over 5
-                years as an employment specialist for newly arrived immigrants
-                and later as a financial coach.
+                I currently work as a ride-share driver, but prior to that I
+                worked for a non-profit organization for over 5 years as an
+                employment specialist for newly arrived immigrants and later as
+                a financial coach.
               </p>
               <p>
                 I have completed the Full Stack Web Development Boot Camp at SMU
                 and graduated as of November of 2023. I have been able to create
-                projects from the Boot Camp using MERN stack technologies. My
-                goal is to become a successful developer, leveraging my skills
-                to innovate and develop new technologies that solve real-world
-                problems and contribute to the advancement of the tech
-                community.
+                projects from the Boot Camp using MERN stack technologies.
+                Recently, I have also acquired an AI Prompt Engineering
+                certificate. My projects include an AI JavaScript Coding
+                Assistant and a Multi-Language Translator, both of which have
+                helped me refine my skills in AI integration and practical
+                problem-solving. My goal is to become a successful developer,
+                leveraging my skills to innovate and develop new technologies
+                that solve real-world problems and contribute to the advancement
+                of the tech community.
               </p>
+              <p>Thank you for visiting my portfolio.</p>
             </div>
           </div>
         </div>
