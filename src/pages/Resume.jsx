@@ -20,12 +20,21 @@ function Resume() {
               </a>{" "}
               |
               <a
+                href="https://courses.edx.org/certificates/ecacdb998fe1464eae84908c24904361"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fa-solid fa-link" style={{ padding: "5px" }}></i>
+                AI Applications and Prompt Engineering Certificate
+              </a>
+              |
+              <a
                 href="https://www.credly.com/badges/481c9f18-9732-478e-98bf-423d1d4e94b7/public_url"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <i className="fa-solid fa-link" style={{ padding: "5px" }}></i>
-                Certificate
+                Full Stack Certificate
               </a>
             </p>
             <Row>
