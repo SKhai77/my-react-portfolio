@@ -30,7 +30,7 @@ function AboutMe() {
                 I have completed the Full Stack Web Development Boot Camp at SMU
                 and graduated as of November of 2023. I have been able to create
                 projects from the Boot Camp using MERN stack technologies.
-                Recently, I have also acquired an AI Prompt Engineering
+                Recently, I have also acquired an AI Application and Prompt Engineering
                 certificate. My projects include an AI JavaScript Coding
                 Assistant and a Multi-Language Translator, both of which have
                 helped me refine my skills in AI integration and practical
